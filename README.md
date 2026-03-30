@@ -4,15 +4,15 @@ A lightweight, secure internal tool for creating, viewing, and deleting text not
 
 ## Features
 
-- ✅ **Create Notes**: Add new notes with title and content
-- ✅ **View Notes**: Display all notes with proper formatting
-- ✅ **Delete Notes**: Remove notes with confirmation
-- ✅ **Authentication**: Secure token-based authorization
-- ✅ **Data Persistence**: Notes persist via PocketHost API
-- ✅ **Loading States**: UI feedback during async operations
-- ✅ **Responsive Design**: Works on desktop and mobile devices
-- ✅ **Error Handling**: User-friendly error messages
-- ✅ **Modern Stack**: React 18 + Tailwind CSS + Express.js
+-  **Create Notes**: Add new notes with title and content
+-  **View Notes**: Display all notes with proper formatting
+-  **Delete Notes**: Remove notes with confirmation
+-  **Authentication**: Secure token-based authorization
+-  **Data Persistence**: Notes persist via PocketHost API
+-  **Loading States**: UI feedback during async operations
+-  **Responsive Design**: Works on desktop and mobile devices
+-  **Error Handling**: User-friendly error messages
+-  **Modern Stack**: React 18 + Tailwind CSS + Express.js
 
 ## Technology Stack
 

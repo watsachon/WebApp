@@ -14,26 +14,26 @@
   }
 
   .btn-primary {
-    @apply btn bg-blue-600 text-white hover:bg-blue-700;
+    @apply btn bg-gradient-to-r from-pink-400 to-rose-400 text-white hover:from-pink-500 hover:to-rose-500 shadow-md;
   }
 
   .btn-danger {
-    @apply btn bg-red-600 text-white hover:bg-red-700;
+    @apply btn bg-gradient-to-r from-orange-300 to-rose-400 text-white hover:from-orange-400 hover:to-rose-500 shadow-md;
   }
 
   .btn-secondary {
-    @apply btn bg-gray-300 text-gray-800 hover:bg-gray-400;
+    @apply btn bg-purple-300 text-white hover:bg-purple-400 shadow-sm;
   }
 
   .input-field {
-    @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+    @apply w-full px-3 py-2 border-2 border-pink-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-transparent bg-white/80;
   }
 
   .card {
-    @apply bg-white rounded-lg shadow-md p-4 border border-gray-200;
+    @apply bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl shadow-md p-4 border-2 border-pink-100;
   }
 
   .card-hover {
-    @apply card hover:shadow-lg transition-shadow cursor-pointer;
+    @apply card hover:shadow-xl hover:border-pink-200 transition-all cursor-pointer;
   }
 }
