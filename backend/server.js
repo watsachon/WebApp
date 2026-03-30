@@ -8,7 +8,9 @@ const SECRET_TOKEN = process.env.SECRET_TOKEN;
 const POCKETHOST_TOKEN = process.env.POCKETHOST_TOKEN;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: "*"
+}));
 app.use(express.json());
 
 // Authentication Middleware
